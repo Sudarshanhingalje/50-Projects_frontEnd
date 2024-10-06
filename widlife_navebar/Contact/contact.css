@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #aeff8e; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    margin-top: 30vh;
+    padding: 50px;
+    margin:100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 20px rgb(0, 255, 251); 
+    
+    min-height: fit-content;
+}
+
+.information i {
+    margin-right: 15px; 
+    color: #6950e5;
+    font-size: 2rem; 
+}
+
+a {
+    color: #e52f87; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+
