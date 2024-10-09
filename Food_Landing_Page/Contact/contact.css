@@ -1,0 +1,98 @@
+/* Base styles for page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6; /* Softer background for professional appearance */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Darker font color for readability */
+}
+
+/* Contact container styles */
+.contact {
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Crisp white background for clarity */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer, subtle shadow for depth */
+    max-width: 600px; /* Restrict the width for better readability */
+}
+
+/* Title styling */
+.contact h1 {
+    font-size: 2.5rem;
+    color: #333; /* Dark grey for the title */
+    margin-bottom: 20px;
+    font-weight: bold; /* Add weight for emphasis */
+    text-transform: uppercase; /* Make the title uppercase for a professional look */
+    letter-spacing: 1px; /* Slightly increase letter spacing for readability */
+}
+
+/* Contact information section styling */
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Icons for email and Instagram */
+.information i {
+    margin-right: 15px; 
+    color: #6950e5; /* Professional purple shade for icons */
+    font-size: 1.8rem; /* Slightly smaller for balanced look */
+}
+
+/* Styling the email and Instagram links */
+a {
+    color: #007bff; /* Bootstrap standard blue color for consistency */
+    text-decoration: none; /* Remove default underline for a clean look */
+    font-size: 1.1rem;
+    font-weight: 500; /* Slightly bold for visibility */
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover state for links */
+a:hover {
+    color: #0056b3; /* Darker blue on hover for an interactive feel */
+    text-decoration: underline; /* Reintroduce underline on hover */
+}
+
+/* Button styles */
+button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: #007bff; /* Bootstrap button blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth animation for hover */
+    margin-top: 20px;
+}
+
+/* Button hover and active states */
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight grow on hover */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact {
+        margin: 20px; /* Adjust margins for smaller screens */
+        padding: 30px;
+    }
+
+    .information {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+
+    .information i {
+        margin-bottom: 10px;
+    }
+}
