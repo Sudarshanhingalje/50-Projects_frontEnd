@@ -34,7 +34,7 @@ cd wildlife-nature-website
      xdg-open home.html
      ```
 
-### Optional: Using a Local Server
+### Optional: Using a Local Server,
 
 For a more production-like environment, you can use a local server:
 
